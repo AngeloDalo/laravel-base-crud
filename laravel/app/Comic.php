@@ -8,13 +8,14 @@ class Comic extends Model
 {
     protected $fillable = [
         'name',
+        'code',
         'editor',
         'writer',
         'description',
         'price',
         'photo',
         'page',
-        '+18',
+        'adult',
         'created_at',
         'updated_at',
     ];
