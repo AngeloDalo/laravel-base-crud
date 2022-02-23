@@ -30,7 +30,7 @@
                 @foreach ($comics as $comic)
                     <tr>
                         <td>{{ $comic->name }}</td>
-                        <td>{{ $comic->Code }}</td>
+                        <td>{{ $comic->code }}</td>
                         <td>{{ $comic->editor }}</td>
                         <td>{{ $comic->writer }}</td>
                         <td>{{ $comic->price }} €</td>
