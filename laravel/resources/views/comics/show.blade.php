@@ -5,7 +5,7 @@
 @endsection
 
 @section('content')
-<div class="container">
+<div class="container show">
     <div class="row">
         <div class="col">
              <h1>{{ $comic->name }}</h1>

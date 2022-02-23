@@ -12173,7 +12173,23 @@ fieldset:disabled .btn {
   }
 }
 
+header .navbar {
+  background-color: #a8a8fd;
+}
+
+main {
+  background-color: #a8a8fd;
+}
+
+footer {
+  background-color: #a8a8fd;
+}
+
 .container .row .col img {
   width: 300px;
+}
+
+.show {
+  text-transform: uppercase;
 }
 

@@ -9,7 +9,7 @@
 </head>
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light ps-5">
+    <nav class="navbar navbar-expand-lg navbar-light ps-5">
         <a class="navbar-brand" href="#">Comics</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -17,7 +17,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="{{ route('comics.index') }}">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="{{ route('comics.index') }}">Home</a>
             </li>
           </ul>
         </div>
@@ -29,7 +29,7 @@
   </main>
 
 <!-- Footer -->
-<footer class="text-center text-lg-start bg-light text-muted">
+<footer class="text-center text-lg-start text-muted">
     <!-- Section: Social media -->
     <section
       class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
