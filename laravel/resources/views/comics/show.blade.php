@@ -20,6 +20,7 @@
         <div class="col">
           <div>{{ $comic->description }}</div>
           <div><h2>{{  $comic->price }} €</h2></div>
+          <a class="btn btn-primary" href="{{ route('comics.index') }}">Home</a>
         </div>
     </div>
 </div>
