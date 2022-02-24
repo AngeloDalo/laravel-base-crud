@@ -5,7 +5,7 @@
 @endsection
 
 @section('content')
-<div class="container show">
+<div class="container show p-5">
     <div class="row">
         <div class="col">
              <h1>{{ $comic->name }}</h1>
@@ -21,6 +21,8 @@
           <div>{{ $comic->description }}</div>
           <div><h2>{{  $comic->price }} €</h2></div>
           <a class="btn btn-primary" href="{{ route('comics.index') }}">Home</a>
+          <a class="btn btn-primary" href="{{ route('comics.edit', $comic) }}">Update</a>
+          
         </div>
     </div>
 </div>
