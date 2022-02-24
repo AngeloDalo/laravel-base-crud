@@ -8,6 +8,7 @@
 <div class="container">
     <div class="row">
       <form action="{{ route('comics.store') }}" method="post">
+        <a class="btn btn-primary" href="{{ route('comics.index') }}">ANNULLA</a>
         @csrf
         @method('POST')
         <div class="mb-3">

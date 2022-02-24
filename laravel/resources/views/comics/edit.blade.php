@@ -9,6 +9,7 @@
         <div class="row">
             <div class="col">
                 <h2>Modifica del Fumetto: {{ $comic->name }}</h2>
+                <a class="btn btn-primary" href="{{ route('comics.index') }}">ANNULLA</a>
             </div>
         </div>
         <div class="row">
