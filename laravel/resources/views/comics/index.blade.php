@@ -6,10 +6,10 @@
 
 @section('content')
 <div class="container">
-    <div class="row">
-        <h1 class="h1">Admin - All Comics</h1>
+    <div class="row row-title-index">
+        <h1 class="h1 text-uppercase">Admin - All Comics</h1>
     </div>
-    <div class="row">
+    <div class="row mb-4">
         <div class="col">
             <a href="{{ route('comics.create') }}" class="btn btn-primary">Add new Comics</a>
         </div>
@@ -24,6 +24,8 @@
                         <th>Editor</th>
                         <th>Writer</th>
                         <th>Price</th>
+                        <th>View</th>
+                        <th>Update</th>
                     </tr>
                 </thead>
                 <tbody>
