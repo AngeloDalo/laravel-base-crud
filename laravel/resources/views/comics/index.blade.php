@@ -14,6 +14,7 @@
             <a href="{{ route('comics.create') }}" class="btn btn-primary">Add new Comics</a>
         </div>
     </div>
+    <!--message delate-->
     <div class="row">
         <div class="col">
             @if (session('status'))
